@@ -4,10 +4,10 @@
         if ($('#dashboard-area-chart').length) {
             let lineChartCanvas = $("#dashboard-area-chart").get(0).getContext("2d");
             let data = {
-                labels: ["2013", "2014", "2014", "2015", "2016", "2017"],
+                labels: ["July", "August", "November", "January", "March", "May"],
                 datasets: [{
                     label: 'Profit',
-                    data: [1, 3, 5, 1, 4, 2, 8, 2],
+                    data: [20, 30, 50, 100, 200, 230, 400, 246],
                     backgroundColor: '#0068bf20',
                     borderColor: [
                         '#0068bf'
