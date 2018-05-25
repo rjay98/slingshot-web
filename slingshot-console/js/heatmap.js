@@ -164,8 +164,8 @@ var map = AmCharts.makeChart( "map", {
 
     "valueLegend": {
         "right": 10,
-        "minValue": "little",
-        "maxValue": "a lot!"
+        "minValue": "0-10 shares",
+        "maxValue": "120+ shares"
     },
 
     "export": {
