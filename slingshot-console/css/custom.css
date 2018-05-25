@@ -65,3 +65,21 @@ html {
     border-radius:5px;
     width: 80%;
 }
+
+.width-img {
+    max-height: 100px;
+}
+
+h2 {
+    margin-bottom: 0px;
+
+    vertical-align: bottom;
+
+    line-height: 58px;
+
+    text-align: left;
+}
+
+.brand-logo {
+    width: 25%;
+}
