@@ -7,7 +7,7 @@
                 labels: ["July", "August", "November", "January", "March", "May"],
                 datasets: [{
                     label: 'Profit',
-                    data: [20, 30, 50, 100, 200, 230, 400, 246],
+                    data: [20, 30, 50, 1000, 2000, 5000, 7360, 7360],
                     backgroundColor: '#0068bf20',
                     borderColor: [
                         '#0068bf'
