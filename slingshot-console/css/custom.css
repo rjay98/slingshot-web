@@ -82,4 +82,5 @@ h2 {
 
 .brand-logo {
     width: 25%;
+    min-width: 25%;
 }
