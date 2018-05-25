@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/2.4.85/css/materialdesignicons.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
 
   <link rel="shortcut icon" href="images/favicon.png" />
@@ -27,12 +28,6 @@
         <ul class="navbar-nav navbar-nav-left header-links d-none d-md-flex">
           <li class="nav-item">
             <a href="#" class="nav-link"><i class="mdi mdi-image-filter"></i>My Startup</a>
-          </li>
-          <li class="nav-item active">
-            <a href="#" class="nav-link"><i class="mdi mdi-email-outline"></i>Messages</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link"><i class="mdi mdi-calendar"></i>Calendar</a>
           </li>
         </ul>
         <ul class="navbar-nav navbar-nav-right">
@@ -91,61 +86,6 @@
               </a>
             </div>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
-              <i class="mdi mdi-email-variant"></i>
-              <span class="count">7</span>
-            </a>
-            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="messageDropdown">
-              <div class="dropdown-item">
-                <p class="mb-0 font-weight-normal float-left">You have 7 unread mails
-                </p>
-                <span class="badge badge-info badge-pill float-right">View all</span>
-              </div>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <img src="images/faces/face4.jpg" alt="image" class="profile-pic">
-                </div>
-                <div class="preview-item-content flex-grow">
-                  <h6 class="preview-subject ellipsis font-weight-medium">David Grey
-                    <span class="float-right font-weight-light small-text">1 Minutes ago</span>
-                  </h6>
-                  <p class="font-weight-light small-text">
-                    The meeting is cancelled
-                  </p>
-                </div>
-              </a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <img src="images/faces/face2.jpg" alt="image" class="profile-pic">
-                </div>
-                <div class="preview-item-content flex-grow">
-                  <h6 class="preview-subject ellipsis font-weight-medium">Tim Cook
-                    <span class="float-right font-weight-light small-text">15 Minutes ago</span>
-                  </h6>
-                  <p class="font-weight-light small-text">
-                    New product launch
-                  </p>
-                </div>
-              </a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <img src="images/faces/face3.jpg" alt="image" class="profile-pic">
-                </div>
-                <div class="preview-item-content flex-grow">
-                  <h6 class="preview-subject ellipsis font-weight-medium"> Johnson
-                    <span class="float-right font-weight-light small-text">18 Minutes ago</span>
-                  </h6>
-                  <p class="font-weight-light small-text">
-                    Upcoming board meeting
-                  </p>
-                </div>
-              </a>
-            </div>
-          </li>
           <li class="nav-item d-none d-lg-block">
             <a class="nav-link" href="#">
               <img class="img-xs rounded-circle" src="images/faces/face4.jpg" alt="">
@@ -172,22 +112,13 @@
               </div>
             </div>
           </li>
-          <li class="nav-item"><a class="nav-link" href="index.html"><img class="menu-icon" src="images/menu_icons/01.png" alt="menu icon"><span class="menu-title">Dashboard</span></a></li>
-          <li class="nav-item"><a class="nav-link" href="pages/widgets.html"><img class="menu-icon" src="images/menu_icons/02.png" alt="menu icon"><span class="menu-title">Widgets</span></a></li>
-          <li class="nav-item"><a class="nav-link" href="pages/ui-features/buttons.html"><img class="menu-icon" src="images/menu_icons/03.png" alt="menu icon"><span class="menu-title">Buttons</span></a></li>
-          <li class="nav-item"><a class="nav-link" href="pages/forms/basic_elements.html"><img class="menu-icon" src="images/menu_icons/04.png" alt="menu icon"><span class="menu-title">Form</span></a></li>
-          <li class="nav-item"><a class="nav-link" href="pages/charts/chartjs.html"><img class="menu-icon" src="images/menu_icons/05.png" alt="menu icon"><span class="menu-title">Charts</span></a></li>
-          <li class="nav-item"><a class="nav-link" href="pages/tables/basic-table.html"><img class="menu-icon" src="images/menu_icons/06.png" alt="menu icon"><span class="menu-title">Table</span></a></li>
-<!--          <li class="nav-item"><a class="nav-link" href="pages/icons/font-awesome.html"><img class="menu-icon" src="images/menu_icons/07.png" alt="menu icon"> <span class="menu-title">Icons</span></a></li>
-          <li class="nav-item">-->
+          <li class="nav-item">
+            <a class="nav-link" id="dashboard-tab" data-toggle="tab" href="#dashboard"><img class="menu-icon" src="images/menu_icons/01.png" alt="menu icon"><span class="menu-title">Dashboard</span></a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#settings" id="settings-tab" data-toggle="tab"><img class="menu-icon" src="images/menu_icons/04.png" alt="menu icon"><span class="menu-title">Options</span></a></li>
             <a class="nav-link" data-toggle="collapse" href="#general-pages" aria-expanded="false" aria-controls="general-pages"> <i class="menu-arrow"></i></a>
             <div class="collapse" id="general-pages">
               <ul class="nav flex-column sub-menu">
-<!--                <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html">Blank Page</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html">Login</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html">Register</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html">404</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/error-500.html">500</a></li>-->
               </ul>
             </div>
           </li>
@@ -195,257 +126,278 @@
       </nav>
       <!-- partial -->
       <div class="main-panel">
-        <div class="content-wrapper">
-          <div class="row">
-            <div class="col-12 grid-margin">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title mb-4">Stock Trends</h5>
-                  <canvas id="dashboard-area-chart" height="100px"></canvas>
+        <div class="tab-content" id="nav-tabContent">
+          <div role="tabpanel" id="dashboard" class="tab-pane fade show active content-wrapper">
+            <div class="row">
+              <div class="col-12 grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title mb-4">Stock Trends</h5>
+                    <canvas id="dashboard-area-chart" height="100px"></canvas>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
-              <div class="card card-statistics">
-                <div class="card-body">
-                  <div class="clearfix">
-                    <div class="float-left">
-                      <i class="mdi mdi-currency-usd text-danger icon-lg"></i>
-                    </div>
-                    <div class="float-right">
-                      <p class="card-text text-right">Total Investments</p>
-                      <div class="fluid-container">
-                        <h3 class="card-title font-weight-bold text-right mb-0">$7360</h3>
+            <div class="row">
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
+                <div class="card card-statistics">
+                  <div class="card-body">
+                    <div class="clearfix">
+                      <div class="float-left">
+                        <i class="mdi mdi-currency-usd text-danger icon-lg"></i>
+                      </div>
+                      <div class="float-right">
+                        <p class="card-text text-right">Total Investments</p>
+                        <div class="fluid-container">
+                          <h3 class="card-title font-weight-bold text-right mb-0">$7360</h3>
+                        </div>
                       </div>
                     </div>
+                    <p class="text-muted mt-3">
+                      34% increased funding
+                    </p>
                   </div>
-                  <p class="text-muted mt-3">
-                    34% increased funding
-                  </p>
                 </div>
               </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
-              <div class="card card-statistics">
-                <div class="card-body">
-                  <div class="clearfix">
-                    <div class="float-left">
-                      <i class="mdi mdi-receipt text-warning icon-lg"></i>
-                    </div>
-                    <div class="float-right">
-                      <p class="card-text text-right">Price per Share</p>
-                      <div class="fluid-container">
-                        <h3 class="card-title font-weight-bold text-right mb-0">$30</h3>
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
+                <div class="card card-statistics">
+                  <div class="card-body">
+                    <div class="clearfix">
+                      <div class="float-left">
+                        <i class="mdi mdi-receipt text-warning icon-lg"></i>
+                      </div>
+                      <div class="float-right">
+                        <p class="card-text text-right">Price per Share</p>
+                        <div class="fluid-container">
+                          <h3 class="card-title font-weight-bold text-right mb-0">$30</h3>
+                        </div>
                       </div>
                     </div>
+                    <p class="text-muted mt-3">
+                      Stock Analytics
+                    </p>
                   </div>
-                  <p class="text-muted mt-3">
-                    Stock Analytics
-                  </p>
                 </div>
               </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
-              <div class="card card-statistics">
-                <div class="card-body">
-                  <div class="clearfix">
-                    <div class="float-left">
-                      <i class="mdi mdi-poll-box text-teal icon-lg"></i>
-                    </div>
-                    <div class="float-right">
-                      <p class="card-text text-right">Available Shares</p>
-                      <div class="fluid-container">
-                        <h3 class="card-title font-weight-bold text-right mb-0">1599</h3>
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
+                <div class="card card-statistics">
+                  <div class="card-body">
+                    <div class="clearfix">
+                      <div class="float-left">
+                        <i class="mdi mdi-poll-box text-teal icon-lg"></i>
+                      </div>
+                      <div class="float-right">
+                        <p class="card-text text-right">Available Shares</p>
+                        <div class="fluid-container">
+                          <h3 class="card-title font-weight-bold text-right mb-0">1599</h3>
+                        </div>
                       </div>
                     </div>
+                    <p class="text-muted mt-3">
+                      26% of company
+                    </p>
                   </div>
-                  <p class="text-muted mt-3">
-                    26% of company
-                  </p>
                 </div>
               </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
-              <div class="card card-statistics">
-                <div class="card-body">
-                  <div class="clearfix">
-                    <div class="float-left">
-                      <i class="mdi mdi-account-location text-info icon-lg"></i>
-                    </div>
-                    <div class="float-right">
-                      <p class="card-text text-right">Bought Shares</p>
-                      <div class="fluid-container">
-                        <h3 class="card-title font-weight-bold text-right mb-0">246</h3>
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
+                <div class="card card-statistics">
+                  <div class="card-body">
+                    <div class="clearfix">
+                      <div class="float-left">
+                        <i class="mdi mdi-account-location text-info icon-lg"></i>
+                      </div>
+                      <div class="float-right">
+                        <p class="card-text text-right">Bought Shares</p>
+                        <div class="fluid-container">
+                          <h3 class="card-title font-weight-bold text-right mb-0">246</h3>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <p class="text-muted mt-3">
-                    4% of company
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 grid-margin">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title mb-4">Recent Transactions</h5>
-                  <div class="table-responsive">
-                    <table class="table center-aligned-table">
-                      <thead>
-                        <tr>
-                          <th class="border-bottom-0">Transaction ID</th>
-                          <th class="border-bottom-0">Purchased On</th>
-                          <th class="border-bottom-0">Purchaser</th>
-                          <th class="border-bottom-0">Quantity</th>
-                          <th class="border-bottom-0">Total Price</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>56820394ab62dc</td>
-                          <td>25 May 2017</td>
-                            <td>Joe Smith</td>
-                          <td>50</td>
-                          <td>$1500</td>
-                        </tr>
-                        <tr>
-                            <td>56820394ab62dc</td>
-                            <td>24 May 2018</td>
-                            <td>Debby Warner</td>
-                            <td>50</td>
-                            <td>$1500</td>
-                        </tr>
-                        <tr>
-                            <td>56820394ab62dc</td>
-                            <td>24 May 2018</td>
-                            <td>Emily Smith</td>
-                            <td>46</td>
-                            <td>$1380</td>
-                        </tr>
-                        <tr>
-                            <td>56820394ab62dc</td>
-                            <td>24 May 2018</td>
-                            <td>Charlie Johnson</td>
-                            <td>50</td>
-                            <td>$1500</td>
-                        </tr>
-                        <tr>
-                            <td>56820394ab62dc</td>
-                            <td>24 May 2018</td>
-                            <td>Richard Good</td>
-                            <td>50</td>
-                            <td>$1500</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                    <p class="text-muted mt-3">
+                      4% of company
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 grid-margin">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title mb-4">Top Regions</h5>
-                  <div class="row">
-                    <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12">
-                      <table class="table table-striped">
+            <div class="row">
+              <div class="col-12 grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title mb-4">Recent Transactions</h5>
+                    <div class="table-responsive">
+                      <table class="table center-aligned-table">
+                        <thead>
+                          <tr>
+                            <th class="border-bottom-0">Transaction ID</th>
+                            <th class="border-bottom-0">Purchased On</th>
+                            <th class="border-bottom-0">Purchaser</th>
+                            <th class="border-bottom-0">Quantity</th>
+                            <th class="border-bottom-0">Total Price</th>
+                          </tr>
+                        </thead>
                         <tbody>
                           <tr>
-                            <td>
-                              <div class="flag">
-                                <img src="images/flags/US.png">
-                              </div>
-                            </td>
-                            <td>USA</td>
-                            <td class="text-right">
-                              2.920
-                            </td>
-                            <td class="text-right">
-                              53.23%
-                            </td>
+                            <td>56820394ab62dc</td>
+                            <td>25 May 2017</td>
+                              <td>Joe Smith</td>
+                            <td>50</td>
+                            <td>$1500</td>
                           </tr>
                           <tr>
-                            <td>
-                              <div class="flag">
-                                <img src="images/flags/DE.png">
-                              </div>
-                            </td>
-                            <td>Germany</td>
-                            <td class="text-right">
-                              1.300
-                            </td>
-                            <td class="text-right">
-                              20.43%
-                            </td>
+                              <td>56820394ab62dc</td>
+                              <td>24 May 2018</td>
+                              <td>Debby Warner</td>
+                              <td>50</td>
+                              <td>$1500</td>
                           </tr>
                           <tr>
-                            <td>
-                              <div class="flag">
-                                <img src="images/flags/AU.png">
-                              </div>
-                            </td>
-                            <td>Australia</td>
-                            <td class="text-right">
-                              760
-                            </td>
-                            <td class="text-right">
-                              10.35%
-                            </td>
+                              <td>56820394ab62dc</td>
+                              <td>24 May 2018</td>
+                              <td>Emily Smith</td>
+                              <td>46</td>
+                              <td>$1380</td>
                           </tr>
                           <tr>
-                            <td>
-                              <div class="flag">
-                                <img src="images/flags/GB.png">
-                              </div>
-                            </td>
-                            <td>United Kingdom</td>
-                            <td class="text-right">
-                              690
-                            </td>
-                            <td class="text-right">
-                              7.87%
-                            </td>
+                              <td>56820394ab62dc</td>
+                              <td>24 May 2018</td>
+                              <td>Charlie Johnson</td>
+                              <td>50</td>
+                              <td>$1500</td>
                           </tr>
                           <tr>
-                            <td>
-                              <div class="flag">
-                                <img src="images/flags/RO.png">
-                              </div>
-                            </td>
-                            <td>Romania</td>
-                            <td class="text-right">
-                              600
-                            </td>
-                            <td class="text-right">
-                              5.94%
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <div class="flag">
-                                <img src="images/flags/BR.png">
-                              </div>
-                            </td>
-                            <td>Brasil</td>
-                            <td class="text-right">
-                              550
-                            </td>
-                            <td class="text-right">
-                              4.34%
-                            </td>
+                              <td>56820394ab62dc</td>
+                              <td>24 May 2018</td>
+                              <td>Richard Good</td>
+                              <td>50</td>
+                              <td>$1500</td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
-                    <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12">
-                      <div class="rounded" id="map" style="min-height:300px;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title mb-4">Top Regions</h5>
+                    <div class="row">
+                      <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                        <table class="table table-striped">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <div class="flag">
+                                  <img src="images/flags/US.png">
+                                </div>
+                              </td>
+                              <td>USA</td>
+                              <td class="text-right">
+                                2.920
+                              </td>
+                              <td class="text-right">
+                                53.23%
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <div class="flag">
+                                  <img src="images/flags/DE.png">
+                                </div>
+                              </td>
+                              <td>Germany</td>
+                              <td class="text-right">
+                                1.300
+                              </td>
+                              <td class="text-right">
+                                20.43%
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <div class="flag">
+                                  <img src="images/flags/AU.png">
+                                </div>
+                              </td>
+                              <td>Australia</td>
+                              <td class="text-right">
+                                760
+                              </td>
+                              <td class="text-right">
+                                10.35%
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <div class="flag">
+                                  <img src="images/flags/GB.png">
+                                </div>
+                              </td>
+                              <td>United Kingdom</td>
+                              <td class="text-right">
+                                690
+                              </td>
+                              <td class="text-right">
+                                7.87%
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <div class="flag">
+                                  <img src="images/flags/RO.png">
+                                </div>
+                              </td>
+                              <td>Romania</td>
+                              <td class="text-right">
+                                600
+                              </td>
+                              <td class="text-right">
+                                5.94%
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <div class="flag">
+                                  <img src="images/flags/BR.png">
+                                </div>
+                              </td>
+                              <td>Brasil</td>
+                              <td class="text-right">
+                                550
+                              </td>
+                              <td class="text-right">
+                                4.34%
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                        <div class="rounded" id="map" style="min-height:300px;"></div>
+                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div role="tabpanel" id="settings" class="tab-pane fade content-wrapper">
+            <div class="card" id="setting-card">
+              <div class="card-body">
+                <div class="card-title">
+                  <h4 class="heading"><strong>Personal </strong> Contact <span></span></h4>
+                </div>
+                <div class="form_main col-md-4 col-sm-5 col-xs-7">
+                  <div class="form">
+                    <form action="" method="" id="contactFrm" name="contactFrm" abineguid="83E768845B5844FDA20A83C4BB789620">
+                      <input required="" placeholder="Name" value="" name="name" class="txt" oldautocomplete="remove" autocomplete="off" mmclosedfield="grp-0.14521298494606216" type="text">
+                      <input required="" placeholder="Email" value="" name="email" class="txt" oldautocomplete="remove" autocomplete="off" type="text">
+                      <input required="" placeholder="Change Pwd" value="" name="password" class="txt" type="password"><br>
+                      <button type="button" class="btn btn-default">Update</button>
+                    </form>
                   </div>
                 </div>
               </div>
@@ -457,7 +409,7 @@
         <!-- partial:partials/_footer.html -->
         <footer class="footer">
           <div class="container-fluid clearfix">
-            <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2018 <a href="http://www.bootstrapdash.com/" target="_blank">Bootstrapdash</a>. All rights reserved.</span>
+            <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2018 <a href="http://www.bootstrapdash.com/" target="_blank">Slingshot</a>. All rights reserved.</span>
             <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Powered by CapitalOne</span>
           </div>
 
