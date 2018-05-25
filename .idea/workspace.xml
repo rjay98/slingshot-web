@@ -2,115 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12b92408-e172-4330-93d0-08d7cbf44890" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/slingshot-console/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/slingshot-console/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/auth/login_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/auth/register_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/AD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/AE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/AG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/AM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/AR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/AT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/AU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/BE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/BF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/BG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/BO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/BR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/CA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/CD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/CG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/CH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/CL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/CM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/CN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/CO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/CZ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/DE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/DJ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/DK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/DZ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/EE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/EG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/ES.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/FI.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/FR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/GA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/GB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/GM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/GT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/HN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/HT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/HU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/ID.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/IE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/IL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/IN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/IQ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/IR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/IT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/JM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/JO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/JP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/KG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/KN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/KP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/KR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/KW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/KZ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/LA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/LB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/LC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/LS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/LU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/LV.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/MG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/MK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/ML.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/MM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/MT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/MX.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/NA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/NE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/NG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/NI.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/NL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/NO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/OM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/PA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/PE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/PG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/PK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/PL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/PT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/PY.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/QA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/RO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/RU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/RW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/SA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/SE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/SG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/SL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/SN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/SO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/SV.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/TD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/TJ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/TL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/TR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/TZ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/UA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/US.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/VE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/VN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/flags/YE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/images/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slingshot-console/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/slingshot-console/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -125,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="256">
-              <caret line="174" column="47" selection-start-line="174" selection-start-column="47" selection-end-line="174" selection-end-column="47" />
+              <caret line="175" column="47" selection-start-line="175" selection-start-column="47" selection-end-line="175" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -158,11 +51,13 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="17">
+                <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -184,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slingshot-console/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+            <state relative-caret-position="1445">
+              <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -235,9 +130,9 @@
         <option value="$PROJECT_DIR$/slingshot-console/pages/forms/basic_elements.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/slingshot-console/js/dashboard.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/slingshot-console/index.html" />
         <option value="$PROJECT_DIR$/slingshot-console/css/custom.css" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -247,7 +142,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="952" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
@@ -392,15 +287,15 @@
       <updated>1527183478645</updated>
       <workItem from="1527183480404" duration="1696000" />
       <workItem from="1527186981691" duration="1323000" />
-      <workItem from="1527204052658" duration="11153000" />
+      <workItem from="1527204052658" duration="11828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14172000" />
+    <option name="totallyTimeSpent" value="14847000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -417,7 +312,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26213592" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12684564" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -485,7 +380,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
-          <caret line="174" column="47" selection-start-line="174" selection-start-column="47" selection-end-line="174" selection-end-column="47" />
+          <caret line="175" column="47" selection-start-line="175" selection-start-column="47" selection-end-line="175" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -501,14 +396,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/slingshot-console/images/logo1.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/slingshot-console/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -549,8 +436,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/slingshot-console/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+        <state relative-caret-position="1445">
+          <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

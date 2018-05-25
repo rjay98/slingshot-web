@@ -1,4 +1,6 @@
 # Slingshot Web App
+**Capital One May 2018 Software Engineering Summit Hackathon**
+
 The web app is designed to provide information to those considering investing through Slingshot and provide analytics for startup entrepreneurs.  It's home page is primarily informational, while the console provides analysis.
 
 ## Home Page
