@@ -6,8 +6,8 @@
             let data = {
                 labels: ["July", "August", "November", "January", "March", "May"],
                 datasets: [{
-                    label: 'Profit',
-                    data: [20, 30, 50, 1000, 2000, 5000, 7360, 7360],
+                    label: 'Stocks',
+                    data: [20, 30, 50, 100, 140, 187, 223, 246],
                     backgroundColor: '#0068bf20',
                     borderColor: [
                         '#0068bf'

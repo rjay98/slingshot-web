@@ -1,3 +1,7 @@
+var xhr = new XMLHttpRequest();
+xhr.open('POST', "https://intense-island-91068.herokuapp.com/ping", true);
+xhr.send('hi');
+
 var map = AmCharts.makeChart( "map", {
     "type": "map",
     "theme": "light",
