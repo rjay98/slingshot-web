@@ -7,7 +7,7 @@
                 labels: ["July", "August", "November", "January", "March", "May"],
                 datasets: [{
                     label: 'Stocks',
-                    data: [20, 30, 50, 100, 140, 187, 223, 246],
+                    data: [20, 50, 500, 1360, 2360, 5360, 7360, 7360],
                     backgroundColor: '#0068bf20',
                     borderColor: [
                         '#0068bf'
@@ -219,12 +219,16 @@ AmCharts.makeChart( "map", {
 
     "valueLegend": {
         "right": 10,
-        "minValue": "little",
-        "maxValue": "a lot!"
+        "minValue": "0",
+        "maxValue": "6150"
     },
 
     "export": {
         "enabled": true
     }
 
+} );
+
+$(document).ready(function() {
+    $('#transactions').DataTable();
 } );
